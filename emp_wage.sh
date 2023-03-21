@@ -1,5 +1,6 @@
 echo Welcome to Employee Wage Computation Program on Master Branch
 
+
 isPresent=$((RANDOM%3));
 perHourSalary=20;
 workingHour=0;
