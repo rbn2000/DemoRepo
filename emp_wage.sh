@@ -1,4 +1,3 @@
-echo Welcome to Employee Wage Computation Program on Master Branch
 
 
 perHourSalary=20;
@@ -35,4 +34,5 @@ do
         totalSalary=$(($totalSalary + $salary));
         ((day++));
 done
-echo "Employee has earned $totalSalary $ in a month (Total working Hour : $totalWorkingHour)";
+echo "Employee has earned $totalSalary $ in a month ";
+echo "The employee total working Hours is : $totalWorkingHour";
